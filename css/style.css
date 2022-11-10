@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+}
+
+body {
+    background-color: black;
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+}
+header{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 10% 90% ;
+
+
+}
+
+header img{
+    margin: 20px;
+    width: 120px;
+}
+
+.div-title-hero{
+    padding: 20px;
+}
+
+.title-hero {
+    margin-top: 25px;
+    font-size: 50px;
+
+
+}
+
+
+.banner{
+    width: 790px;
+    height: 100%;
+    border-radius:30px ;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
+.hero-title{
+    text-align: center;
+    display: blcok;
+    margin: 50px 0px 0px 0px;
+    color: brown;
+}
+
+ul{
+    margin: 0px 80px 80px 80px !important;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:20px ;
+}
+
+li{
+    display: inline;
+    margin-bottom: 15px;
+
+    
+    
+}
+
+
+ul li img{
+    width: 50px;
+}
+
+.hero-icon{
+    margin: auto;
+    display: block;
+    
+}
+
+.name-hero{
+    margin: 5px 5px 0px 5px;
+    margin-bottom: ;
+    text-align: center;
+    display: block;
+    color: brown;
+
+}
+
+.hero-description{
+    text-align: justify;
+    padding: 5px 100px 5px 100px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+
+
+#imgContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; /* o container de imagens ocupará toda a largura da tela*/
+    height: 400px; /* 400 pixels de altura */
+    overflow: hidden; /* esconde a parte da imagem que ultrapassar o tamanho ou a altura desse container*/
+  }
+  #imgContainer img {
+    /* adicionando efeitos para as imagens que estão dentro do container*/
+    margin-top: 50px;
+    width: 100%; /*ocupará toda a largura do container*/
+    height: 100%; /*ocupará toda a altura do container*/
+    display: inline-block; /* organiza as imagens em linha*/
+  }
+
+
+  footer{
+    background-color: brown;
+    align-items: center;
+    height: 80px;
+    padding-top:35px ;
+  }
+
+  footer h3{
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif !important;
+
+  }
+
+  text-footer{
+    font-family: Arial, Helvetica, sans-serif !important;
+    }
